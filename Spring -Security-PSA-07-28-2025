@@ -1,3 +1,4 @@
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧V-43 -->>basic introduction about REstful-Api🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 Note --🚧
 If you only add the [[ spring-boot-starter-security (or Spring Security) dependency ]] in your pom.xml,
 then by default—yes, Spring Boot will secure all HTTP endpoints in your application. It automatically:
@@ -5,6 +6,8 @@ then by default—yes, Spring Boot will secure all HTTP endpoints in your applic
 🔐 Example Behaviors-->> No custom config:
 Add spring-boot-starter-security
 No SecurityFilterChain defined → all requests require login by default
+
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧V-44-->>basic introduction about Rastful-Api🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
 
 
