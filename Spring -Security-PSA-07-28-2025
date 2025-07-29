@@ -1,1 +1,26 @@
+Note --🚧
+If you only add the spring-boot-starter-security (or Spring Security) dependency in your pom.xml,
+then by default—yes, Spring Boot will secure all HTTP endpoints in your application. It automatically:
 
+🔐 Example Behaviors-->> No custom config:
+Add spring-boot-starter-security
+No SecurityFilterChain defined → all requests require login by default
+
+
+
+
+
+
+
+
+
+
+
+✅ TL;DR
+| Step                                             | Why you need it                                                |
+| ------------------------------------------------ | -------------------------------------------------------------- |
+| Add dependency                                   | Secures everything by default with basic auth + generated user |
+| Write `SecurityFilterChain` bean                 | To define public vs protected URLs and auth rules              |
+| Possibly configure `WebSecurityCustomizer`       | To ignore static resources or other paths                      |
+| Define a real user store/auth & password encoder | Default user is random/passwordless, not production-ready      |
+| Optional: configure CSRF/CORS/headers            | For APIs, frontend integration, or custom security headers     |
